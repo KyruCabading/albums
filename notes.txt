@@ -1,0 +1,2 @@
+ESlint React Native Configuration
+https://medium.com/the-react-native-log/getting-eslint-right-in-react-native-bd27524cc77b

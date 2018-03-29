@@ -1,0 +1,39 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-native"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "semi": [ "warn", "always" ],
+        "no-unused-vars": [ 0,
+        { "vars": "local", "args": "after-used", "ignoreRestSiblings": false, "varsIgnorePattern": "pot" }]
+        # "jsx-quotes": ["error", "prefer-single"],
+        # "react/jsx-boolean-value": "error",
+        # "react/jsx-curly-spacing": ["error", "never"],
+        # "react/jsx-equals-spacing": ["error", "never"],
+        # "react/jsx-indent": ["error", 2],
+        # "react/jsx-indent-props": ["error", 2],
+        # "react/jsx-no-duplicate-props": "error",
+        # "react/jsx-no-undef": "error",
+        # "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+        # "react/jsx-uses-react": "error",
+        # "react/jsx-uses-vars": "error",
+        # "react/self-closing-comp": "error"
+    }
+}
