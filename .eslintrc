@@ -22,7 +22,8 @@
     "rules": {
         "semi": [ "warn", "always" ],
         "no-unused-vars": [ 0,
-        { "vars": "local", "args": "after-used", "ignoreRestSiblings": false, "varsIgnorePattern": "pot" }]
+        { "vars": "local", "args": "after-used", "ignoreRestSiblings": false, "varsIgnorePattern": "pot" }],
+        "no-console": 0
         # "jsx-quotes": ["error", "prefer-single"],
         # "react/jsx-boolean-value": "error",
         # "react/jsx-curly-spacing": ["error", "never"],
