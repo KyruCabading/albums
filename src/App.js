@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import firebase from 'firebase';
 import { Header } from './components/common';
 import AlbumList from './components/AlbumList';
-
+import LoginForm from './components/LoginForm';
 
 // Create a component
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Header headerText="Login" />
-        <Text>An App!</Text>
+        <LoginForm />
       </View>
     );
   }
